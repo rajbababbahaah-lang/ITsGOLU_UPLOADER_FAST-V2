@@ -2,19 +2,19 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "20401115"))
+API_HASH = os.environ.get("API_HASH", "f27d722a2772cc581435be607be35022")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8575972360:AAHHOIZcmlS0Orc8ekDcQvNas0X8eSIDt54")
 
-CREDIT = os.environ.get("CREDIT", "𝐈𝐓'𝐬𝐆𝐎𝐋𝐔")
+CREDIT = os.environ.get("CREDIT", "𝐌ℛ𝒦ᑌꕷᵸ𝕎𝘼Ꮋ𝘼")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "CpprivateApi")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://itsgoluAPI:jrMHSipToKUEnmcp@cpprivateapi.ghhp3oz.mongodb.net/?appName=CpprivateApi")  # Add your own atlas db
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Rajaluck900:Rajaluck900@cluster0.f0gdi0d.mongodb.net/?appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "7955217692"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "7955217692").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = ""
@@ -59,6 +59,7 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
